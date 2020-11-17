@@ -1,0 +1,30 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - phantom-html-to-pdf > phantomjs > request > hawk > hoek:
+        patched: '2020-11-17T19:03:56.053Z'
+    - phantom-html-to-pdf > phantomjs > request > hawk > boom > hoek:
+        patched: '2020-11-17T19:03:56.053Z'
+    - phantom-html-to-pdf > phantomjs > request > hawk > sntp > hoek:
+        patched: '2020-11-17T19:03:56.053Z'
+    - phantom-html-to-pdf > phantom-workers > phantomjs > request > hawk > hoek:
+        patched: '2020-11-17T19:03:56.053Z'
+    - phantom-html-to-pdf > phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-11-17T19:03:56.053Z'
+    - phantom-html-to-pdf > phantom-workers > phantomjs > request > hawk > boom > hoek:
+        patched: '2020-11-17T19:03:56.053Z'
+    - phantom-html-to-pdf > phantom-workers > phantomjs > request > hawk > sntp > hoek:
+        patched: '2020-11-17T19:03:56.053Z'
+    - phantom-html-to-pdf > phantom-workers > phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-11-17T19:03:56.053Z'
+  SNYK-JS-LODASH-567746:
+    - phantom-html-to-pdf > lodash:
+        patched: '2020-11-17T19:03:56.053Z'
+  'npm:tough-cookie:20170905':
+    - phantom-html-to-pdf > phantomjs > request > tough-cookie:
+        patched: '2020-11-17T19:03:56.053Z'
+    - phantom-html-to-pdf > phantom-workers > phantomjs > request > tough-cookie:
+        patched: '2020-11-17T19:03:56.053Z'
